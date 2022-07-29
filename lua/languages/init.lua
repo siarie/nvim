@@ -1,0 +1,3 @@
+-- [[ languages ]]
+
+require("languages.go")
