@@ -3,7 +3,7 @@
 vim.g.mapleader = " "
 vim.g.localleader = " "
 
-vim.opt.listchars = { tab = "→→", trail = "•", extends = "»", precedes = "«" }
+vim.opt.listchars = { tab = "••", trail = "•", extends = "»", precedes = "«" }
 
 --[[ global-local editor options]]
 local o = vim.o
