@@ -1,0 +1,14 @@
+[nvim]> fortune | cowsay > README
+[nvim]> cat README
+ __________________________________
+/ Freedom is slavery. Ignorance is \
+| strength. War is peace.          |
+|                                  |
+\ -- George Orwell                 /
+ ----------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
