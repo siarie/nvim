@@ -21,4 +21,21 @@ require("project_nvim").setup({
 })
 
 -- telescope
-require("telescope").load_extension("projects")
+local telescope = require("telescope")
+
+telescope.setup({
+    defaults = {
+        file_ignore_patterns = { "^.git/", "^.hg/", "node_modules/" },
+    },
+    pickers = {
+        find_files = {
+            hidden = true,
+        },
+        live_grep = {
+            additional_args = function(opts)
+                return {"--hidden"}
+            end,
+        },
+    },
+})
+telescope.load_extension("projects")
