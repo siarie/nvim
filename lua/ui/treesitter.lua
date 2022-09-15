@@ -11,6 +11,7 @@ treesitter.setup({
         "scss",
         "html",
         "yaml",
+        "ocaml",
     },
     highlight = { enable = true },
     incremental_selection = { enable = true },

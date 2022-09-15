@@ -4,8 +4,9 @@ return require('packer').startup(function(use)
     use 'wbthomason/packer.nvim'
 
     -- [[ Appearance
-    use 'itchyny/lightline.vim'
-    use {'catppuccin/nvim', as = 'catppuccin.nvim'}
+    use 'nvim-lualine/lualine.nvim'
+    use 'RRethy/nvim-base16'
+    use { 'NvChad/nvim-colorizer.lua', as = 'colorizer' }
 
     -- [[ Tools ]]
     use 'ahmedkhalf/project.nvim'
