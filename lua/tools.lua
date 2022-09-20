@@ -11,13 +11,16 @@ require("project_nvim").setup({
         ".svn",
 
         -- language projects
+        "dune-project",
         "Makefile",
         "package.json",
         "go.mod",
         "composer.json",
+        "build.zig",
     },
 
     datapath = vim.fn.stdpath("data"),
+    show_hidden = true,
 })
 
 -- telescope
