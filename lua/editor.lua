@@ -12,7 +12,6 @@ o.number = true
 o.colorcolumn = "80"
 o.scrolloff = 4
 o.signcolumn = "yes"
-o.textwidth = 72
 
 -- Filetypes
 o.encoding = 'utf8'
